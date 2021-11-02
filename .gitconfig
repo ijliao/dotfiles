@@ -1,0 +1,27 @@
+[alias]
+	br = branch
+	co = checkout
+	ci = commit
+	l = log --decorate --graph --oneline
+	st = status
+	sw = switch
+	unstage = reset HEAD --
+	undo = reset --soft HEAD^
+[core]
+	preloadindex = yes
+[color]
+	ui = auto
+[diff]
+	algorithm = histogram
+[fetch]
+	prune = yes
+[pull]
+	rebase = true
+[rerere]
+	enable = yes
+[stash]
+	showPatch = true
+[status]
+	showStash = true
+[include]
+	path = ~/.gitconfig.local
