@@ -1,0 +1,9 @@
+[user]
+	name = Ying-Chieh Liao
+	email = ijliao@gmail.com
+[core]
+	editor = vim
+	autocrlf = false
+	safecrlf = true
+[credential "https://github.com"]
+	username = ijliao
