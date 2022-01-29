@@ -1,0 +1,6 @@
+set main-view-author = email-user
+set main-view-date = custom
+set main-view-date-format = "%Y-%m-%d %H:%M"
+
+set vertical-split = vertical
+set split-view-width = 75%
