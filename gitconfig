@@ -9,8 +9,11 @@
 	undo = reset --soft HEAD^
 [core]
 	preloadindex = yes
-[color]
-	ui = auto
+	pager = ~/.cargo/bin/delta
+[interactive]
+	diffFilter = ~/.cargo/bin/delta --color-only
+[delta]
+	navigate = true
 [diff]
 	algorithm = histogram
 [fetch]
