@@ -16,3 +16,7 @@ indent_brace_style = K&R
 
 [{Makefile,*.mk}]
 indent_style = tab
+
+[*.bean]
+indent_style = space
+indent_size = 2
