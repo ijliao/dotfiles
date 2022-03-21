@@ -16,6 +16,18 @@ set expandtab
 
 set nofoldenable
 
+if has("gui_running")
+  set guifont=Inconsolata:h14:cANSI
+
+  "set guioptions-=m " hide menu
+  set guioptions-=T " hide toolbar
+  "set guioptions-=L " hide left scroll bar
+  set guioptions-=r " hide right scroll bar
+  set guioptions-=b " hide bottom scroll bar
+  "set showtabline=0 " hide tab
+  set lines=999 columns=999
+endif
+
 packadd minpac
 
 if !exists('g:loaded_minpac')
