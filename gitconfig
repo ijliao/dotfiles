@@ -18,6 +18,8 @@
 	algorithm = histogram
 [fetch]
 	prune = yes
+[merge]
+	conflictstyle = diff3
 [pull]
 	rebase = true
 [rerere]
