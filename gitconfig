@@ -8,6 +8,7 @@
 	unstage = reset HEAD --
 	undo = reset --soft HEAD^
 	dw = diff -w --ignore-blank-lines
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / | sort
 [core]
 	preloadindex = yes
 	pager = ~/.cargo/bin/delta
